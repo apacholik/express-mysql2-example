@@ -1,0 +1,19 @@
+{
+  "name": "express-mysql2-example",
+  "version": "1.0.0",
+  "private": "true",
+  "author": {
+    "name": "Andrzej Pacholik",
+    "email": "andrzej.pacholik@gmail.com",
+    "url": "https://github.com/apacholik"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --env-file=.env app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1",
+    "express": "^4",
+    "mysql2": "^3"
+  }
+}
